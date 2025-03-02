@@ -365,8 +365,8 @@ else:
 st.title(title)
 
 # User input fields
-name = st.text_input(name_label)
-learning_goal = st.text_area(goal_label)
+name = st.text_input("Faraz",name_label)
+learning_goal = st.text_area("Python",goal_label)
 
 if st.button(recommendation_button):
     # Get recommendations based on user's learning goal
